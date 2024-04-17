@@ -5,7 +5,7 @@
 body{
     font-family: Abyssinica;
 }
-.hero, .secondary, .product, .secondary, .secondary-sedan, .secondary-sport, .secondary-suv, .secondary-truck {
+.hero, .secondary, .product, .secondary, .secondary-sedan, .secondary-sport, .secondary-suv, .secondary-truck, .contact {
     animation: transitionIn 1.5s;
 }
 
