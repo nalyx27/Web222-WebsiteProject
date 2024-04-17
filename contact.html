@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body class="contactpage">
+
+    <header>
+        <div class="logo">
+            <img src="Images/logo.png" alt="Logo">
+        </div>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <div class="dropdown-menu">
+                    <li id="product-menu">Products</li>
+                    <!-- Dropdown menu -->
+                    <div class="dropdown">
+                        <a href="sedan.html">Sedans</a>
+                        <a href="suv.html">SUVs</a>
+                        <a href="truck.html">Trucks</a>
+                        <a href="sport.html">Vans/Minivans</a>
+                    </div>
+                </div>
+ 
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Contact Form-->
+    <div class="contact">
+        <form class="contact-form" id="contact-form">
+            <h3>Please fill out this contact form</h3>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name" required>
+            <p id="fname-span" class="error-text"></p>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+            <p id="lname-span" class="error-text"></p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <p id="email-span" class="error-text"></p>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required >
+            <p id="phone-span" class="error-text"></p>
+            <label for="add">Message:</label>
+            <textarea name="add" id="add" rows="5" required></textarea>
+            <br><br>
+            <button type="submit" class="submit-button"> Submit Contact Info</button>
+        </form>
+    </div>
+
+    <!-- Secondary Section -->
+    <section class="secondary">
+        <div class="secondary-content">
+                <img src="Images/logo.png" alt="Logo">
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Horizon. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
